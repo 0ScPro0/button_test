@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    justify-content: center; /* центрирование по горизонтали */
+    align-items: center;    /* центрирование по вертикали */
+    min-height: 100vh;      /* занимает всю высоту экрана */
+    margin: 0;              /* убирает отступы по умолчанию */
+    background-color: rgb(20, 20, 20);
+}
+
+.container {
+    background-color: rgb(44, 44, 44);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column; /* Элементы в столбик */
+    align-items: center;    /* Центрирование по горизонтали */
+    gap: 20px;              /* Отступ между заголовком и кнопкой */
+    padding: 40px;
+}
+
+.main_head {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.main_button {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(89, 1, 157);
+    border: none;
+    border-radius: 8px;
+    padding: 15px 70px; /* Размеры кнопки */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.main_button:hover {
+    background-color: rgb(102, 0, 181);
+}
